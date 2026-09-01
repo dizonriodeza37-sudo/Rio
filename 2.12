@@ -1,0 +1,8 @@
+public class Section2_12 {
+    public static void main(String[] args) {
+        int computedVal;
+        computedVal = 42; // Assignment using '=' operator
+
+        System.out.println("Assigned value: " + computedVal);
+    }
+}

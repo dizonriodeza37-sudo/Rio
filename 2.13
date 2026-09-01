@@ -1,0 +1,8 @@
+public class Section2_13 {
+    public static void main(String[] args) {
+        System.out.print("one ");     // Prints without newline
+        System.out.print("two ");     // Prints without newline
+        System.out.println("three "); // Prints with newline
+        System.out.println("four ");  // Prints on new line
+    }
+}

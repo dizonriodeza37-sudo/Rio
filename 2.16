@@ -1,0 +1,9 @@
+public class Section2_16 {
+    public static void main(String[] args) {
+        int numX = 20;
+        int numY = 9;
+
+        System.out.println("Sum Result: " + (numX + numY));    // Addition
+        System.out.println("Modulo Result: " + (numX % numY)); // Modulus remainder
+    }
+}

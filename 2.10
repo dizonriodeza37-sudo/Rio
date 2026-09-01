@@ -1,0 +1,10 @@
+public class Section2_10 {
+    public static void main(String[] args) {
+        int testScore1 = 3, testScore2 = 10;
+        byte profileAge = 22;
+        double circleRatio = 3.14159;
+        char menuOption = 'x';
+
+        System.out.println("Scores: " + testScore1 + ", Profile Age: " + profileAge);
+    }
+}

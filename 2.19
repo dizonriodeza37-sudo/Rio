@@ -1,0 +1,14 @@
+public class Section2_19 {
+    public static void main(String[] args) {
+        // Implicit / Widening Casting (automatic: int -> double)
+        int wholeValue = 50;
+        double autoConverted = wholeValue;
+
+        // Explicit / Narrowing Casting (manual: double -> int)
+        double priceAmount = 99.99;
+        int convertedInteger = (int) priceAmount; 
+
+        System.out.println("Automatic (int to double): " + autoConverted);
+        System.out.println("Explicit (double to int): " + convertedInteger);
+    }
+}

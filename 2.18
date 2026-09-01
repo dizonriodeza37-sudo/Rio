@@ -1,0 +1,11 @@
+public class Section2_18 {
+    public static void main(String[] args) {
+        int loopIndex = 1;
+
+        int preIncrement = ++loopIndex;  // Pre-increment updates before use
+        int postIncrement = loopIndex++; // Post-increment updates after use
+
+        System.out.println("Pre-incremented: " + preIncrement);
+        System.out.println("Post-incremented: " + postIncrement);
+    }
+}

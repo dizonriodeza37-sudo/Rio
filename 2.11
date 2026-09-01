@@ -1,0 +1,9 @@
+public class Section2_11 {
+    public static void main(String[] args) {
+        int rawPrimitive = 10;         // Primitive variable stores value directly
+        String objReference = "Hello"; // Reference variable holds object reference address
+
+        System.out.println("Direct Value: " + rawPrimitive);
+        System.out.println("Reference Address: " + objReference);
+    }
+}

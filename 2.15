@@ -1,0 +1,8 @@
+public class Section2_15 {
+    public static void main(String[] args) {
+        String prefixText = "Hello";
+        String combinedMessage = prefixText + " my friend!"; // Merging strings with '+'
+
+        System.out.println(combinedMessage);
+    }
+}
